@@ -1,0 +1,10 @@
+env = Environment()
+
+lib_target = "murmur3"
+lib_sources = ["MurmurHash3.c"]
+
+env.Append(CFLAGS = ['-O3'])
+env.Append(LINKFLAGS = ['-O3'])
+
+env.SharedLibrary(target = lib_target, source = lib_sources)
+
