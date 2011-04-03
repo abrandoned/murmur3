@@ -4,6 +4,8 @@ Murmur3
 A basic "refactor" of Murmur3 hashing methods so they are ANSI C compatible and yield the same results.  Long story short, needed it
 for something :)
 
+(updated with "finalized" version of algorithm as of April 3rd, 2011)
+
 A basic Scons build file is included (sconstruct) to build "libmurmur3.so"
 
 
